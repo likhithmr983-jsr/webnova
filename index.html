@@ -1,0 +1,285 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webnova | Frontend Development Event</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- HEADER -->
+    <header class="header">
+        <div class="logo">WEB<span>NOVA</span></div>
+
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#events">Rounds</a>
+            <a href="#register">Register</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <button class="menu-btn">☰</button>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section class="hero" id="home">
+
+        <div class="hero-content">
+            <p class="eyebrow">TECHNOVA 2026 PRESENTS</p>
+
+            <h1>WEB<span>NOVA</span></h1>
+
+            <p class="hero-text">
+                The ultimate frontend development showdown.
+                Design, debug, build and showcase your creativity
+                through the power of web development.
+            </p>
+
+            <div class="hero-actions">
+                <a href="#register" class="btn primary">Register Now</a>
+                <a href="#events" class="btn secondary">Explore Rounds</a>
+            </div>
+
+            <div class="countdown">
+                <div>
+                    <strong>03</strong>
+                    <small>Rounds</small>
+                </div>
+
+                <div>
+                    <strong>01</strong>
+                    <small>Day</small>
+                </div>
+
+                <div>
+                    <strong>∞</strong>
+                    <small>Creativity</small>
+                </div>
+            </div>
+        </div>
+
+        <!-- HERO ART -->
+        <div class="hero-art">
+            <div class="orb"></div>
+
+            <div class="floating-card card-one">
+                &lt;HTML&gt;
+                <span>Structure</span>
+            </div>
+
+            <div class="floating-card card-two">
+                {CSS}
+                <span>Design</span>
+            </div>
+
+            <div class="floating-card card-three">
+                JS
+                <span>Logic</span>
+            </div>
+        </div>
+
+        <div class="hero-date">
+            2026
+            <small>WEB<br>EVENT</small>
+        </div>
+
+    </section>
+
+    <!-- EVENTS SECTION -->
+    <section class="section" id="events">
+
+        <div class="section-heading">
+            <p class="eyebrow">WHAT'S THE CHALLENGE?</p>
+            <h2>THE ROUNDS</h2>
+            <p>Three rounds. Three challenges. One champion.</p>
+        </div>
+
+        <div class="event-grid">
+
+            <!-- ROUND 1 -->
+            <div class="event-card">
+                <div class="event-icon">🎨</div>
+
+                <span class="tag">ROUND 01</span>
+
+                <h3>Style It Up</h3>
+
+                <p>
+                    Participants will receive a basic HTML and JavaScript
+                    website and must transform it into a beautiful,
+                    responsive website using CSS. Creativity, alignment
+                    and design skills will be tested.
+                </p>
+
+                <a href="#register" class="event-link">Take the Challenge →</a>
+            </div>
+
+            <!-- ROUND 2 -->
+            <div class="event-card">
+                <div class="event-icon">🐞</div>
+
+                <span class="tag">ROUND 02</span>
+
+                <h3>Bug Hunt</h3>
+
+                <p>
+                    Find and fix hidden errors in a website source code.
+                    Participants must identify CSS, HTML and layout bugs
+                    and make the website work correctly within the
+                    given time.
+                </p>
+
+                <a href="#register" class="event-link">Take the Challenge →</a>
+            </div>
+
+            <!-- ROUND 3 -->
+            <div class="event-card">
+                <div class="event-icon">🚀</div>
+
+                <span class="tag">ROUND 03</span>
+
+                <h3>Product Showcase</h3>
+
+                <p>
+                    Create an attractive promotional website for a
+                    given product. Participants must showcase the
+                    product using engaging layouts, creative visuals,
+                    typography and responsive design.
+                </p>
+
+                <a href="#register" class="event-link">Take the Challenge →</a>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- REGISTRATION SECTION -->
+    <section class="register-section" id="register">
+
+        <div class="register-copy">
+            <p class="eyebrow">READY TO COMPETE?</p>
+
+            <h2>JOIN THE<br>SHOWDOWN.</h2>
+
+            <p>
+                Bring your creativity, sharpen your coding skills
+                and compete with fellow frontend developers.
+                Build something amazing and prove your skills.
+            </p>
+
+            <div class="register-note">
+                <strong>Code. Create. Conquer.</strong>
+            </div>
+        </div>
+
+        <!-- REGISTRATION FORM -->
+        <form class="form" id="registrationForm">
+
+            <div class="form-row">
+                <label for="name">Full Name</label>
+                <input
+                    type="text"
+                    id="name"
+                    placeholder="Enter your name"
+                    required
+                >
+            </div>
+
+            <div class="form-row">
+                <label for="email">Email Address</label>
+                <input
+                    type="email"
+                    id="email"
+                    placeholder="Enter your email"
+                    required
+                >
+            </div>
+
+            <div class="form-row">
+                <label for="phone">Phone Number</label>
+                <input
+                    type="tel"
+                    id="phone"
+                    placeholder="Enter phone number"
+                    required
+                >
+            </div>
+
+            <div class="form-row">
+                <label for="college">College Name</label>
+                <input
+                    type="text"
+                    id="college"
+                    placeholder="Enter college name"
+                    required
+                >
+            </div>
+
+            <div class="form-row">
+                <label for="branch">Branch</label>
+                <select id="branch" required>
+                    <option value="">Select Branch</option>
+                    <option>CSE</option>
+                    <option>ISE</option>
+                    <option>ECE</option>
+                    <option>EEE</option>
+                    <option>ME</option>
+                    <option>Civil</option>
+                    <option>Data Science</option>
+                    <option>Other</option>
+                </select>
+            </div>
+
+            <div class="form-row">
+                <label for="year">Academic Year</label>
+                <select id="year" required>
+                    <option value="">Select Year</option>
+                    <option>1st Year</option>
+                    <option>2nd Year</option>
+                    <option>3rd Year</option>
+                    <option>4th Year</option>
+                </select>
+            </div>
+
+            <button type="submit" class="btn primary submit-btn">
+                Register Now →
+            </button>
+
+            <p class="form-message" id="formMessage"></p>
+
+        </form>
+
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section class="contact-section" id="contact">
+
+        <p class="eyebrow">GET IN TOUCH</p>
+
+        <h2>CONTACT US</h2>
+
+        <p>
+            Have questions about Webnova?
+            Reach out to the event organizers.
+        </p>
+
+        <p>
+            📧 Email: technova@example.com
+        </p>
+
+        <p>
+            📍 Karavali Institute of Technology, Mangalore
+        </p>
+
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>© 2026 WEBNOVA | TECHNOVA</p>
+        <p>Designed for developers. Built for creativity.</p>
+    </footer>
+
+</body>
+</html>
